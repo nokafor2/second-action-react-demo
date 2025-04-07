@@ -19,6 +19,9 @@ jobs:
         run: npm test
   # run a second job, testing multiple jobs
   deploy:
+    # To run job sequentially, use the 'needs' keyword
+    # To wait for multiple jobs to run, use and array [job1, job2, job3]
+    needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Get code
