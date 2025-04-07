@@ -2,7 +2,7 @@ name: Output information
 on: workflow_dispatch
 jobs:
   info:
-    run-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - name: Output GitHub context
         # This is a sample of how to output a meta data from gitHub
