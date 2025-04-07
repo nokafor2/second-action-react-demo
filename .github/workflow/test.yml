@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Get code
       # to use an action, use the 'uses' keyword
-        uses: actions/checkout@4
+        uses: actions/checkout@v4
       - name: Install NodeJS
         uses: actions/setup-node@v3
         # some actions require some configuration which can be specified by the 'with' keyword
