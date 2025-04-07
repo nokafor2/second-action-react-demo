@@ -1,6 +1,6 @@
 name: Deploy Project
 # set the event for this project to run
-# Setting multiple trigger
+# Setting multiple trigger using an array
 # Add the option to manually trigger the workflow
 on: [push, workflow_dispatch]
 jobs: 

@@ -1,0 +1,11 @@
+name: Output information
+on: workflow_dispatch
+jobs:
+  info:
+    run-on: ubuntu-lates
+    steps:
+      - name: Output GitHub context
+        # This is a sample of how to output a meta data from gitHub
+        # This is an expression which the data would be read with this synthax ${{  }}
+        # The toJSON is used to convert the format of the data
+        run: echo "${{ toJSON(github) }}"
