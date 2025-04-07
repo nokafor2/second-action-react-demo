@@ -34,6 +34,6 @@ jobs:
         # build the project before deployment
       - name: Build project
         run: npm run build
-      - name: Deply
+      - name: Deploy
         run: echo "Deploying ..."
 
