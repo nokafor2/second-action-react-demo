@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-      # to use an action, use the 'uses' keyword
-        uses: actions/checkout@4
+        # to use an action, use the 'uses' keyword
+        uses: actions/checkout@3
       - name: Install NodeJS
         uses: actions/setup-node@v3
         # some actions require some configuration which can be specified by the 'with' keyword
