@@ -19,7 +19,7 @@ jobs:
         run: npm test
   # run a second job, testing multiple jobs
   deploy:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Get code
         # to use an action, use the 'uses' keyword
